@@ -8,7 +8,8 @@ Downloads and Homebrew tap for **Bromehew**, a native macOS front end for [Homeb
 brew install --cask appnoe/bromehew/bromehew
 ```
 
-Or download the disk image of the [latest release](https://github.com/appnoe/homebrew-bromehew/releases/latest),
+Or [download the disk image](https://github.com/appnoe/homebrew-bromehew/releases/latest/download/Bromehew.dmg)
+of the latest version (all versions: [releases](https://github.com/appnoe/homebrew-bromehew/releases)),
 open it and drag Bromehew to Applications. Bromehew requires macOS 15 Sequoia or later and must be in the
 Applications folder to open its menu bar item at login.
 
