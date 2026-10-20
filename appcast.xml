@@ -3,6 +3,20 @@
     <channel>
         <title>Bromehew</title>
         <item>
+            <title>2.1.1</title>
+            <pubDate>Tue, 20 Oct 2026 22:39:35 +0200</pubDate>
+            <link>https://github.com/appnoe/homebrew-bromehew</link>
+            <sparkle:version>12</sparkle:version>
+            <sparkle:shortVersionString>2.1.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h3>Fixed</h3>
+<ul>
+<li>Open at login could not be switched on: macOS reports a login item that was never registered as “not found”, which disabled the toggle with a wrong hint about the Applications folder.</li>
+</ul>
+]]></description>
+            <enclosure url="https://github.com/appnoe/homebrew-bromehew/releases/download/v2.1.1/Bromehew-2.1.1.dmg" length="4477866" type="application/octet-stream" sparkle:edSignature="Mv6tHh6WQqyG/FIRS6mvc7S/dESVOggbRyGEA+NPvGJjRt0zmOYocucRwfn2jEhM1m7DH9U8hCatmlLtC3TbBg=="/>
+        </item>
+        <item>
             <title>2.1.0</title>
             <pubDate>Tue, 20 Oct 2026 22:27:47 +0200</pubDate>
             <link>https://github.com/appnoe/homebrew-bromehew</link>

@@ -1,6 +1,6 @@
 cask "bromehew" do
-  version "2.1.0"
-  sha256 "50ec9153db0a3f7d2a3c20e1b8c10c9d225558ae05c0984f57acc5774f544662"
+  version "2.1.1"
+  sha256 "2f15577955445a5ce27eaaa59476d7c1e2f19f1076cb1e7c4b61054812dd9ccc"
 
   url "https://github.com/appnoe/homebrew-bromehew/releases/download/v#{version}/Bromehew-#{version}.dmg"
   name "Bromehew"
