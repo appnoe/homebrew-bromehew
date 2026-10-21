@@ -3,6 +3,24 @@
     <channel>
         <title>Bromehew</title>
         <item>
+            <title>2.2.0</title>
+            <pubDate>Wed, 21 Oct 2026 21:14:43 +0200</pubDate>
+            <link>https://github.com/appnoe/homebrew-bromehew</link>
+            <sparkle:version>13</sparkle:version>
+            <sparkle:shortVersionString>2.2.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h3>Added</h3>
+<ul>
+<li>German localization of the app, the menu bar app, the administrator password prompt and Sparkle's update window; Bromehew follows the system language ([#2](https://github.com/appnoe/bromehew/issues/2)).</li>
+</ul>
+<h3>Changed</h3>
+<ul>
+<li>The menu bar icon shows the state in colour: a green mug when everything is up to date, a red mug with the number of updates, an orange mug with “!” when something needs attention. Before the first check it keeps the menu bar's own colour ([#4](https://github.com/appnoe/bromehew/issues/4)).</li>
+</ul>
+]]></description>
+            <enclosure url="https://github.com/appnoe/homebrew-bromehew/releases/download/v2.2.0/Bromehew-2.2.0.dmg" length="4506655" type="application/octet-stream" sparkle:edSignature="BV84o7izvTYUkZcRT9uryBOoiR+focN8oIIIqWJMoK+ryD7RFKJ743jM3v1eJPMkVLs1ZH4eHHo8FCz267C+Ag=="/>
+        </item>
+        <item>
             <title>2.1.1</title>
             <pubDate>Tue, 20 Oct 2026 22:39:35 +0200</pubDate>
             <link>https://github.com/appnoe/homebrew-bromehew</link>
@@ -34,33 +52,6 @@
 </ul>
 ]]></description>
             <enclosure url="https://github.com/appnoe/homebrew-bromehew/releases/download/v2.1.0/Bromehew-2.1.0.dmg" length="4476969" type="application/octet-stream" sparkle:edSignature="He+54Y0tvlnZIW/eVJLriEabrrN6FopNYX5bJ0hXXk2B5l5LU/l3ZJ5T3ARhJlB8K5zj9+ZR0KUtsgvND2mACw=="/>
-        </item>
-        <item>
-            <title>2.0.0</title>
-            <pubDate>Tue, 20 Oct 2026 20:25:27 +0200</pubDate>
-            <link>https://github.com/appnoe/homebrew-bromehew</link>
-            <sparkle:version>10</sparkle:version>
-            <sparkle:shortVersionString>2.0.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[<h3>Added</h3>
-<ul>
-<li>Bromehew updates itself with Sparkle: Bromehew › Check for Updates… and automatic checks, configurable in Settings › General. Updates must carry the EdDSA signature of the Bromehew release key.</li>
-<li>Releases are signed with a Developer ID, notarized and published as a disk image and as the Homebrew cask <code>appnoe/bromehew/bromehew</code>. <code>Tools/release/release.sh</code> does the whole release, from the version number derived from the changelog to the git-flow merges, tag and push.</li>
-<li>After an update, a running menu bar app replaces itself with the new version.</li>
-</ul>
-<h3>Changed</h3>
-<ul>
-<li>New menu bar icon: the mug from the app icon, full when updates are available, with their number punched into it in small type. A “!” in the mug replaces the warning triangle when something needs attention.</li>
-<li>Brewmeister is now called <strong>Bromehew</strong>: app, menu bar app (Bromehew Menu), Xcode project, targets and scheme carry the new name, and the repository lives at <code>github.com/appnoe/bromehew</code>.</li>
-<li>New bundle identifier <code>com.appnoe.bromehew</code> (menu bar app <code>com.appnoe.bromehew.menu</code>, askpass helper <code>com.appnoe.bromehew.askpass</code>). Settings are carried over once from Brewmeister. macOS treats the app as new: notification permission is asked again and an existing login item must be enabled again in Settings.</li>
-</ul>
-<h3>Fixed</h3>
-<ul>
-<li>Bromehew no longer lists its own cask as an update after it updated itself, and never upgrades, reinstalls or uninstalls it through Homebrew, which would quit the running app. With self-updating casks included, Upgrade All… upgrades formulae and the other casks by name instead of <code>brew upgrade --greedy</code> ([#3](https://github.com/appnoe/bromehew/issues/3)).</li>
-<li>The UI test for Upgrade All… clicked a Touch Bar button instead of Cancel in the confirmation.</li>
-</ul>
-]]></description>
-            <enclosure url="https://github.com/appnoe/homebrew-bromehew/releases/download/v2.0.0/Bromehew-2.0.0.dmg" length="4376398" type="application/octet-stream" sparkle:edSignature="+mGtrkCJg5hzoZstBuIJqnxsdhCyw8/P1bmUGiTeRVUn7wyoC6lkP3tt+Pqo6j5gJca4zHF4Rjil/Xq6ygn3Cw=="/>
         </item>
     </channel>
 </rss>
