@@ -3,6 +3,20 @@
     <channel>
         <title>Bromehew</title>
         <item>
+            <title>2.5.0</title>
+            <pubDate>Mon, 02 Nov 2026 11:37:20 +0100</pubDate>
+            <link>https://github.com/appnoe/homebrew-bromehew</link>
+            <sparkle:version>16</sparkle:version>
+            <sparkle:shortVersionString>2.5.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h3>Added</h3>
+<ul>
+<li>Notifications for Bromehew's activity, each kind with its own switch in Settings › General › Notifications: new updates found in the background (once per version), what automatic updates installed or left for you, and problems: Homebrew that cannot be checked or updated, and services that start failing. A click opens the matching section. They come from the menu bar app, so they also arrive when the main window is closed.</li>
+</ul>
+]]></description>
+            <enclosure url="https://github.com/appnoe/homebrew-bromehew/releases/download/v2.5.0/Bromehew-2.5.0.dmg" length="4646126" type="application/octet-stream" sparkle:edSignature="EFntIQ6QTyUJVUC54fbSlo8I9H1Gkgu6F7ZgZ0gT4pcwaq4hwQh9HJMEliapPJ5odKgUUkw7Tbf/0IvJWzObDA=="/>
+        </item>
+        <item>
             <title>2.4.0</title>
             <pubDate>Mon, 02 Nov 2026 11:21:12 +0100</pubDate>
             <link>https://github.com/appnoe/homebrew-bromehew</link>
@@ -29,24 +43,6 @@
 </ul>
 ]]></description>
             <enclosure url="https://github.com/appnoe/homebrew-bromehew/releases/download/v2.3.0/Bromehew-2.3.0.dmg" length="4528633" type="application/octet-stream" sparkle:edSignature="rk/ZjeNfDkPVxo6noYQ6Jwm3FGJUkMpBOiAqnDEo6xCkfqC3qk6cTTIvklDk8II/OSpWGBmTQTbnx5JM7WMfCw=="/>
-        </item>
-        <item>
-            <title>2.2.0</title>
-            <pubDate>Wed, 21 Oct 2026 21:14:43 +0200</pubDate>
-            <link>https://github.com/appnoe/homebrew-bromehew</link>
-            <sparkle:version>13</sparkle:version>
-            <sparkle:shortVersionString>2.2.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[<h3>Added</h3>
-<ul>
-<li>German localization of the app, the menu bar app, the administrator password prompt and Sparkle's update window; Bromehew follows the system language ([#2](https://github.com/appnoe/bromehew/issues/2)).</li>
-</ul>
-<h3>Changed</h3>
-<ul>
-<li>The menu bar icon shows the state in colour: a green mug when everything is up to date, a red mug with the number of updates, an orange mug with “!” when something needs attention. Before the first check it keeps the menu bar's own colour ([#4](https://github.com/appnoe/bromehew/issues/4)).</li>
-</ul>
-]]></description>
-            <enclosure url="https://github.com/appnoe/homebrew-bromehew/releases/download/v2.2.0/Bromehew-2.2.0.dmg" length="4506655" type="application/octet-stream" sparkle:edSignature="BV84o7izvTYUkZcRT9uryBOoiR+focN8oIIIqWJMoK+ryD7RFKJ743jM3v1eJPMkVLs1ZH4eHHo8FCz267C+Ag=="/>
         </item>
     </channel>
 </rss>
