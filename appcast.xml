@@ -3,6 +3,20 @@
     <channel>
         <title>Bromehew</title>
         <item>
+            <title>2.5.1</title>
+            <pubDate>Wed, 04 Nov 2026 14:11:53 +0100</pubDate>
+            <link>https://github.com/appnoe/homebrew-bromehew</link>
+            <sparkle:version>17</sparkle:version>
+            <sparkle:shortVersionString>2.5.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h3>Fixed</h3>
+<ul>
+<li>Discover no longer crashes while you type a search, for example “Zoom” letter by letter. Thank you for the bug report, Andreas!</li>
+</ul>
+]]></description>
+            <enclosure url="https://github.com/appnoe/homebrew-bromehew/releases/download/v2.5.1/Bromehew-2.5.1.dmg" length="4648519" type="application/octet-stream" sparkle:edSignature="JyMCTrNH0av1bbQpT1J2whprzXh4nCcgYNux8ruXllaVTaOGtcKys7WfZgmWcc7jH9ep4RcGF6MDemmLmu4CAA=="/>
+        </item>
+        <item>
             <title>2.5.0</title>
             <pubDate>Mon, 02 Nov 2026 11:37:20 +0100</pubDate>
             <link>https://github.com/appnoe/homebrew-bromehew</link>
@@ -29,20 +43,6 @@
 </ul>
 ]]></description>
             <enclosure url="https://github.com/appnoe/homebrew-bromehew/releases/download/v2.4.0/Bromehew-2.4.0.dmg" length="4634180" type="application/octet-stream" sparkle:edSignature="TNjIpU5n3GCA9UzRVRkzxoTmb0Op7fmn31pHPAZZ4iPq6INoBnXKcbiELArSejsL1W6120qcDDK6UNAYp3h0Cg=="/>
-        </item>
-        <item>
-            <title>2.3.0</title>
-            <pubDate>Wed, 21 Oct 2026 21:46:17 +0200</pubDate>
-            <link>https://github.com/appnoe/homebrew-bromehew</link>
-            <sparkle:version>14</sparkle:version>
-            <sparkle:shortVersionString>2.3.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[<h3>Added</h3>
-<ul>
-<li>Privacy policy in English and German, in the app (About Bromehew › Privacy Policy and the Help menu) and on appnoe.de ([#5](https://github.com/appnoe/bromehew/issues/5)).</li>
-</ul>
-]]></description>
-            <enclosure url="https://github.com/appnoe/homebrew-bromehew/releases/download/v2.3.0/Bromehew-2.3.0.dmg" length="4528633" type="application/octet-stream" sparkle:edSignature="rk/ZjeNfDkPVxo6noYQ6Jwm3FGJUkMpBOiAqnDEo6xCkfqC3qk6cTTIvklDk8II/OSpWGBmTQTbnx5JM7WMfCw=="/>
         </item>
     </channel>
 </rss>
